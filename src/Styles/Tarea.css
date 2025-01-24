@@ -9,22 +9,21 @@
     align-items: center;
     border-radius: 7px;
     border: 1px solid white;
-    cursor: pointer;    
+    cursor: pointer;   
+    border-radius: 100px;
+
   }
-  
+
   /* Colores */
   
-  .tarea-contenedor:nth-child(3n + 1) {
+  .tarea-contenedor {
     background-color: #1b1b32;
   }
-  
-  .tarea-contenedor:nth-child(3n + 2) {
-    background-color: #2a2a40;
+
+  .tarea-contenedor:hover {
+    background-color: #121212;
   }
-  
-  .tarea-contenedor:nth-child(3n + 3) {
-    background-color: #3b3b4f;
-  }
+
   
   /* Texto */
   
@@ -52,4 +51,9 @@
   .tarea-contenedor.completada {
     background-color: #b82406;
     text-decoration: line-through;
+  }
+
+  .tarea-contenedor.completada:hover {
+    background-color: #881d08;
+
   }

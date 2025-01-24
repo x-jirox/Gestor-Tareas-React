@@ -15,8 +15,10 @@
     background-color: white;
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
-    border: 2px solid #00471b;
+    border: 2px solid #000000;
     outline: none;
+    border-start-start-radius: 100px;
+    border-bottom-left-radius: 100px;
   }
   
   /* Boton Agregar Tarea */
@@ -29,7 +31,16 @@
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     outline: none;
-    background: #00471b;
+    background: #000000;
     color: #fff;
     text-transform: capitalize;
+    border-end-end-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+
+  .tarea-boton:hover {
+
+    background: #1c1c1c;
+    color: #fff;
+
   }
